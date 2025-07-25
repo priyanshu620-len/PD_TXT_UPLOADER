@@ -23,5 +23,5 @@ RUN apt-get update && \
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Start the bot (replace with your actual start script if needed)
-CMD ["python", "uploader.py"]
+CMD ["python", "main.py"]
 
